@@ -13,6 +13,7 @@
     <Description @register="register" class="my-4 enter-y" />
     <Description @register="registerDev" class="enter-y" />
   </PageWrapper>
+  <TipTap />
 </template>
 <script lang="ts" setup>
   import { h } from 'vue';
@@ -20,6 +21,9 @@
   import { PageWrapper } from '/@/components/Page';
   import { Description, DescItem, useDescription } from '/@/components/Description/index';
   import { GITHUB_URL, SITE_URL, DOC_URL } from '/@/settings/siteSetting';
+
+  // TipTap测试
+  import { TipTap } from '/@/components/TipTap/index';
 
   const { pkg, lastBuildTime } = __APP_INFO__;
 

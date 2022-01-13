@@ -20,7 +20,8 @@ export const useGlobSetting = (): Readonly<GlobConfig> => {
 
   // Take global configuration
   const glob: Readonly<GlobConfig> = {
-    title: VITE_GLOB_APP_TITLE,
+    // title: VITE_GLOB_APP_TITLE,
+    title: 'THouse', // 大标题，原：VbenAdmin
     apiUrl: VITE_GLOB_API_URL,
     shortName: VITE_GLOB_APP_SHORT_NAME,
     urlPrefix: VITE_GLOB_API_URL_PREFIX,
